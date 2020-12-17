@@ -21,7 +21,7 @@ The application shown below was deployed using GitHub Pages.  The repository can
 Link to repository: https://github.com/pkriengsiri/workday-planner 
 
 ## Usage
-Link to deployed instance of the application: 
+Link to deployed instance of the application: https://pkriengsiri.github.io/workday-planner/
 
 ![screenshot of application](./assets/images/app_screenshot.png)
 
