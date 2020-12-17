@@ -77,44 +77,4 @@ $(document).ready(function () {
 
   // Event Listeners
   containerEl.on("click", "button", saveTask);
-
-  // GIVEN I am using a daily planner to create a schedule
-  // WHEN I open the planner
-  // THEN the current day is displayed at the top of the calendar
-  //// *Target the ID "currentDay"
-  //// *Set the text content to the current day (use moment.js?)
-  //// *Display should look like "Thursday, September 5th"
-
-  // WHEN I scroll down
-  // THEN I am presented with time blocks for standard business hours
-  //// Target the "container" class
-  //// Create an array for the work hours 9am-5pm
-  //// For each element in the array, create a new time block
-  //// It looks like in the container area for time-blocks there's three columns
-  //// Each row should be a time-block with three columns?
-  //// |Hour | Description                      | Save Button|
-  //// Add a data-attribute to the time block so that it can be referenced by an event handler
-
-  // WHEN I view the time blocks for that day
-  // THEN each time block is color-coded to indicate whether it is in the past, present, or future
-  //// Get the current hour
-  //// Use CSS to color code the blocks based on the current hour
-
-  // WHEN I click into a time block
-  // THEN I can enter an event
-  //// Use event delegation and assign a click listener to the container block, pass in attribute for time block to limit to time blocks
-  //// Target the time block text (should be a form element?)
-  //// Edit the text
-
-  // WHEN I click the save button for that time block
-  // THEN the text for that event is saved in local storage
-  //// Create a local storage key
-  //// Save the event to the key
-
-  // WHEN I refresh the page
-  // THEN the saved events persist
-  //// get the localStorage keys on page load
-  //// Print them to the time blocks
-
-  // Other notes:
 });
