@@ -21,7 +21,7 @@ $(document).ready(function () {
       rowEl.addClass("row time-block");
 
       //create the first column of the time block for the time
-      var hourColEl = $("<div>");
+      var hourColEl = $("<col>");
       hourColEl.addClass("col-1 hour");
       hourColEl.text(moment().set("hour", workdayHours[i]).format("hA"));
       rowEl.append(hourColEl);
