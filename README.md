@@ -6,6 +6,11 @@ A simple workday application using HTML, CSS and jQuery
 This application is a single-day fixed-interval day planning tool.  The code was written using HTML, CSS, Bootstrap CSS framework, JavaScript, jQuery libraries, and font-awesome icon toolkit.  The application can be used to record and save tasks to be performed over a standard 9am-5pm workday.
 
 ### Features
+* Current day displayed in application header
+* Discrete time block elements for each hour of the working day
+* Editable textareas within each time block to record tasks for the specified time period
+* Clickable save buttons which will save the text input by the user to localStorage, allowing it to persist across page refreshes
+* Color-coding of time blocks relative to the current hour (past, present and future)
 
 
 ## Installation
@@ -24,6 +29,8 @@ Link to deployed instance of the application:
 Collaborators on this project included instructional staff, TAs, and students in the Georgia Tech Coding Boot Camp Winter 2020 cohort.
 
 ### Referenced Utilized
+* https://api.jquery.com/hover/
+
 
 ## License
 
@@ -50,6 +57,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Badges
+[![GitHub issues](https://img.shields.io/github/issues/pkriengsiri/workday-planner)](https://github.com/pkriengsiri/workday-planner/issues)
+[![GitHub stars](https://img.shields.io/github/stars/pkriengsiri/workday-planner)](https://github.com/pkriengsiri/workday-planner/stargazers)
+[![GitHub license](https://img.shields.io/github/license/pkriengsiri/workday-planner)](https://github.com/pkriengsiri/workday-planner)
+
 
 
 ## Contributing
