@@ -3,17 +3,22 @@ A simple workday application using HTML, CSS and jQuery
 
 ## Description
 
+This application is a single-day fixed-interval day planning tool.  The code was written using HTML, CSS, Bootstrap CSS framework, JavaScript, jQuery libraries, and font-awesome icon toolkit.  The application can be used to record and save tasks to be performed over a standard 9am-5pm workday.
+
 ### Features
 
+
 ## Installation
-Upload ---------------------- license.txt, and assets folder to the deployed webserver.  Assets folder contains JavaScript and CSS files.
+Upload index.html, license.txt, and assets folder to the deployed webserver.  Assets folder contains JavaScript and CSS files.
 
 The application shown below was deployed using GitHub Pages.  The repository can be replicated by via fork, clone, and redeployment with GitHub Pages.
 
-Link to repository:
+Link to repository: https://github.com/pkriengsiri/workday-planner 
 
 ## Usage
 Link to deployed instance of the application: 
+
+![screenshot of application](./assets/images/app_screenshot.png)
 
 ## Credits
 Collaborators on this project included instructional staff, TAs, and students in the Georgia Tech Coding Boot Camp Winter 2020 cohort.
